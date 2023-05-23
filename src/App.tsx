@@ -6,13 +6,14 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <LikeButton　/>
+        <LikeButton />
       </header>
     </div>
   );
 }
 
 function LikeButton(){
-  return <span>いいねボタン予定地</span>
+  const count =999;
+  return <span className="likeButton">♥ {count}</span>;
 }
 export default App;
